@@ -1,15 +1,18 @@
 import styled from 'styled-components'
 import { fadein } from '../../styles/animation'
 
+export const Article = styled.article`
+    min-height:300px;
+`
 export const WrapperImage = styled.div`
     ${fadein()}
-    border-radius:10px;
     display:block;
     height:0;
     overflow:hidden;
-    padding:56.25% 0 0 0;
-    position:relative;
-    width:100%;
+    height:auto;
+    margin:5px;
+    border-radius:10px;
+
 `
 
 export const Img = styled.img`
@@ -17,9 +20,8 @@ export const Img = styled.img`
     box-shadow: 0 10px 14px rgba(0,0,0,0.2);
     height:100%;
     object-fit:cover;
-    position:absolute;
-    top:0;
     width:100%;
+
 `
 export const Button = styled.button`
     display:flex;
