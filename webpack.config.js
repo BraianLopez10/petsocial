@@ -2,7 +2,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   devServer: {
-    host: '192.168.0.75',
     disableHostCheck: true
   },
   output: {
